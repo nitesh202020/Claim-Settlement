@@ -1,0 +1,273 @@
+Data 1:
+
+Review[] reviews = new Review[25];
+Submission a = new Submission(1);
+Submission b= new Submission(2);
+Submission c= new Submission(3);
+Submission d= new Submission(4);
+Submission e= new Submission(5);
+
+Reviewer aa = new Reviewer(1);
+Reviewer bb = new Reviewer(2);
+Reviewer cc = new Reviewer(3);
+Reviewer dd = new Reviewer(4);
+Reviewer ee = new Reviewer(5);
+
+reviews[0] = new Review(aa, a, 1, 1);
+reviews[1] = new Review(aa, b, 2, 1);
+reviews[2] = new Review(aa, c, 3, 1);
+reviews[3] = new Review(aa, d, 4, 1);
+reviews[4] = new Review(aa, e, 5, 1);
+
+reviews[5] = new Review(bb, a, 1, 1);
+reviews[6] = new Review(bb, b, 2, 1);
+reviews[7] = new Review(bb, c, 3, 1);
+reviews[8] = new Review(bb, d, 4, 1);
+reviews[9] = new Review(bb, e, 5, 1);
+
+reviews[10] = new Review(cc, a, 1, 1);
+reviews[11] = new Review(cc, b, 2, 1);
+reviews[12] = new Review(cc, c, 3, 1);
+reviews[13] = new Review(cc, d, 4, 1);
+reviews[14] = new Review(cc, e, 5, 1);
+
+reviews[15] = new Review(dd, a, 1, 1);
+reviews[16] = new Review(dd, b, 2, 1);
+reviews[17] = new Review(dd, c, 3, 1);
+reviews[18] = new Review(dd, d, 4, 1);
+reviews[19] = new Review(dd, e, 5, 1);
+
+reviews[20] = new Review(ee, a, 1, 1);
+reviews[21] = new Review(ee, b, 2, 1);
+reviews[22] = new Review(ee, c, 3, 1);
+reviews[23] = new Review(ee, d, 4, 1);
+reviews[24] = new Review(ee, e, 5, 1);
+
+
+------------------- Accuracy ---------------------
+Reviewer 1 and Gamma(11.83, 0.09544)[mean=1.129]
+Reviewer 2 and Gamma(11.83, 0.09544)[mean=1.129]
+Reviewer 3 and Gamma(11.83, 0.09544)[mean=1.129]
+Reviewer 4 and Gamma(11.83, 0.09544)[mean=1.129]
+Reviewer 5 and Gamma(11.83, 0.09544)[mean=1.129]
+
+------------------- ExpertPrecision ---------------------
+InformedOutsider and Gamma(17.93, 0.0848)[mean=1.52]
+Knowledgeable and Gamma(10, 0.1)[mean=1]
+Expert and Gamma(10, 0.1)[mean=1]
+
+------------------- Quality ---------------------
+Submission 1 and Gaussian(0.5151, 0.2826)
+Submission 2 and Gaussian(2.039, 0.1752)
+Submission 3 and Gaussian(3.059, 0.1629)
+Submission 4 and Gaussian(4.023, 0.1652)
+Submission 5 and Gaussian(5.127, 0.1891)
+
+------------------- Thresholds ---------------------
+ ------------- Reviewer 1 -------------
+Gaussian(1.132, 0.3419)
+Gaussian(2.434, 0.2378)
+Gaussian(3.541, 0.2218)
+Gaussian(4.682, 0.2604)
+Gaussian(6.219, 0.4921)
+ ------------- Reviewer 2 -------------
+Gaussian(1.132, 0.3419)
+Gaussian(2.434, 0.2378)
+Gaussian(3.541, 0.2218)
+Gaussian(4.682, 0.2604)
+Gaussian(6.219, 0.4921)
+ ------------- Reviewer 3 -------------
+Gaussian(1.132, 0.3419)
+Gaussian(2.434, 0.2378)
+Gaussian(3.541, 0.2218)
+Gaussian(4.682, 0.2604)
+Gaussian(6.219, 0.4921)
+ ------------- Reviewer 4 -------------
+Gaussian(1.132, 0.3419)
+Gaussian(2.434, 0.2378)
+Gaussian(3.541, 0.2218)
+Gaussian(4.682, 0.2604)
+Gaussian(6.219, 0.4921)
+ ------------- Reviewer 5 -------------
+Gaussian(1.132, 0.3419)
+Gaussian(2.434, 0.2378)
+Gaussian(3.541, 0.2218)
+Gaussian(4.682, 0.2604)
+Gaussian(6.219, 0.4921)
+
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+Data 2:
+
+Review[] reviews = new Review[25];
+Submission a = new Submission(1);
+Submission b= new Submission(2);
+Submission c= new Submission(3);
+Submission d= new Submission(4);
+Submission e= new Submission(5);
+
+Reviewer aa = new Reviewer(1);
+Reviewer bb = new Reviewer(2);
+Reviewer cc = new Reviewer(3);
+Reviewer dd = new Reviewer(4);
+Reviewer ee = new Reviewer(5);
+
+reviews[0] = new Review(aa, a, 1, 1);
+reviews[1] = new Review(aa, b, 2, 1);
+reviews[2] = new Review(aa, c, 3, 1);
+reviews[3] = new Review(aa, d, 4, 1);
+reviews[4] = new Review(aa, e, 5, 1);
+
+reviews[5] = new Review(bb, a, 1, 1);
+reviews[6] = new Review(bb, b, 2, 1);
+reviews[7] = new Review(bb, c, 3, 1);
+reviews[8] = new Review(bb, d, 4, 1);
+reviews[9] = new Review(bb, e, 5, 1);
+
+reviews[10] = new Review(cc, a, 1, 1);
+reviews[11] = new Review(cc, b, 2, 1);
+reviews[12] = new Review(cc, c, 3, 1);
+reviews[13] = new Review(cc, d, 4, 1);
+reviews[14] = new Review(cc, e, 5, 1);
+
+reviews[15] = new Review(dd, a, 1, 1);
+reviews[16] = new Review(dd, b, 2, 1);
+reviews[17] = new Review(dd, c, 3, 1);
+reviews[18] = new Review(dd, d, 4, 1);
+reviews[19] = new Review(dd, e, 5, 1);
+
+reviews[20] = new Review(ee, a, 3, 1);
+reviews[21] = new Review(ee, b, 4, 1);
+reviews[22] = new Review(ee, c, 5, 1);
+reviews[23] = new Review(ee, d, 6, 1);
+reviews[24] = new Review(ee, e, 3, 1);
+
+
+------------------- Accuracy ---------------------
+Reviewer 1 and Gamma(11.89, 0.09553)[mean=1.136]
+Reviewer 2 and Gamma(11.89, 0.09553)[mean=1.136]
+Reviewer 3 and Gamma(11.89, 0.09553)[mean=1.136]
+Reviewer 4 and Gamma(11.89, 0.09553)[mean=1.136]
+Reviewer 5 and Gamma(11.52, 0.0933)[mean=1.075]
+
+------------------- ExpertPrecision ---------------------
+InformedOutsider and Gamma(15.67, 0.06588)[mean=1.032]
+Knowledgeable and Gamma(10, 0.1)[mean=1]
+Expert and Gamma(10, 0.1)[mean=1]
+
+------------------- Quality ---------------------
+Submission 1 and Gaussian(1.23, 0.2803)
+Submission 2 and Gaussian(2.538, 0.2128)
+Submission 3 and Gaussian(3.436, 0.2046)
+Submission 4 and Gaussian(4.339, 0.213)
+Submission 5 and Gaussian(4.561, 0.226)
+
+------------------- Thresholds ---------------------
+ ------------- Reviewer 1 -------------
+Gaussian(1.32, 0.3456)
+Gaussian(2.589, 0.2384)
+Gaussian(3.652, 0.2156)
+Gaussian(4.7, 0.2463)
+Gaussian(6.176, 0.4917)
+ ------------- Reviewer 2 -------------
+Gaussian(1.32, 0.3456)
+Gaussian(2.589, 0.2384)
+Gaussian(3.652, 0.2156)
+Gaussian(4.7, 0.2463)
+Gaussian(6.176, 0.4917)
+ ------------- Reviewer 3 -------------
+Gaussian(1.32, 0.3456)
+Gaussian(2.589, 0.2384)
+Gaussian(3.652, 0.2156)
+Gaussian(4.7, 0.2463)
+Gaussian(6.176, 0.4917)
+ ------------- Reviewer 4 -------------
+Gaussian(1.32, 0.3456)
+Gaussian(2.589, 0.2384)
+Gaussian(3.652, 0.2156)
+Gaussian(4.7, 0.2463)
+Gaussian(6.176, 0.4917)
+ ------------- Reviewer 5 -------------
+Gaussian(1.003, 0.5574)
+Gaussian(1.415, 0.4226)
+Gaussian(3.22, 0.1834)
+Gaussian(4.076, 0.1938)
+Gaussian(5.177, 0.3007)
+
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+Data 3:
+
+reviews[0] = new Review(aa, a, 5, 1);
+reviews[1] = new Review(aa, c, 5, 1);
+reviews[2] = new Review(aa, d, 6, 1);
+
+reviews[3] = new Review(bb, a, 2, 3);
+reviews[4] = new Review(bb, d, 4, 3);
+reviews[5] = new Review(bb, e, 5, 3);
+
+reviews[6] = new Review(cc, a, 2, 2);
+reviews[7] = new Review(cc, b, 4, 2);
+reviews[8] = new Review(cc, c, 3, 2);
+
+reviews[9] = new Review(dd, b, 2, 3);
+reviews[10] = new Review(dd, c, 3, 3);
+reviews[11] = new Review(dd, d, 4, 3);
+reviews[12] = new Review(dd, e, 1, 3);
+
+reviews[13] = new Review(ee, a, 1, 2);
+reviews[14] = new Review(ee, b, 3, 2);
+reviews[15] = new Review(ee, d, 4, 2);
+reviews[16] = new Review(ee, e, 5, 2);
+
+
+------------------- Accuracy ---------------------
+Reviewer 1 and Gamma(10.85, 0.08974)[mean=0.9732]
+Reviewer 2 and Gamma(11.44, 0.09518)[mean=1.089]
+Reviewer 3 and Gamma(11.36, 0.09563)[mean=1.086]
+Reviewer 4 and Gamma(11.51, 0.09442)[mean=1.087]
+Reviewer 5 and Gamma(11.81, 0.0953)[mean=1.125]
+
+------------------- ExpertPrecision ---------------------
+InformedOutsider and Gamma(10.29, 0.0874)[mean=0.8993]
+Knowledgeable and Gamma(11.48, 0.08488)[mean=0.9744]
+Expert and Gamma(11.75, 0.07475)[mean=0.8782]
+
+------------------- Quality ---------------------
+Submission 1 and Gaussian(2.423, 0.3059)
+Submission 3 and Gaussian(3.499, 0.3343)
+Submission 4 and Gaussian(4.304, 0.2877)
+Submission 5 and Gaussian(3.762, 0.3838)
+Submission 2 and Gaussian(3.287, 0.3279)
+
+------------------- Thresholds ---------------------
+ ------------- Reviewer 1 -------------
+Gaussian(1.41, 0.9494)
+Gaussian(2.175, 0.7111)
+Gaussian(2.706, 0.5116)
+Gaussian(3.028, 0.416)
+Gaussian(5.065, 0.3858)
+ ------------- Reviewer 2 -------------
+Gaussian(0.8983, 0.5822)
+Gaussian(2.788, 0.3961)
+Gaussian(3.079, 0.3695)
+Gaussian(4.444, 0.2957)
+Gaussian(6.051, 0.5651)
+ ------------- Reviewer 3 -------------
+Gaussian(0.8455, 0.545)
+Gaussian(2.45, 0.2887)
+Gaussian(3.583, 0.2655)
+Gaussian(5.11, 0.5279)
+Gaussian(5.71, 0.7289)
+ ------------- Reviewer 4 -------------
+Gaussian(1.919, 0.2859)
+Gaussian(2.922, 0.2123)
+Gaussian(3.912, 0.2342)
+Gaussian(5.326, 0.4671)
+Gaussian(5.828, 0.6429)
+ ------------- Reviewer 5 -------------
+Gaussian(1.883, 0.3936)
+Gaussian(2.164, 0.3499)
+Gaussian(3.489, 0.2317)
+Gaussian(4.524, 0.2516)
+Gaussian(6.052, 0.5282)
